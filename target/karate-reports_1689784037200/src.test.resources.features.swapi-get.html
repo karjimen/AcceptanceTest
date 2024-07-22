@@ -1,0 +1,1878 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("7f37a4e7-ae82-4a72-a727-35deaf52bb42",{name:"karjimen"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.resources.features.swapi-get</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">4</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-07-19 11:27:00 a. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[4.1:63]"><span>[4.1:63]</span> <span>Make a query with non-existing page</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[4.2:64]"><span>[4.2:64]</span> <span>Make a query with non-existing page</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[4.3:65]"><span>[4.3:65]</span> <span>Make a query with non-existing page</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[4.4:66]"><span>[4.4:66]</span> <span>Make a query with non-existing page</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/resources/features/swapi-get.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Star Wars Api</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4.1:63]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4.1:63]</span>
+                <span class="scenario-name">Make a query with non-existing page</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2489</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4.1:63]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4.1:63]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">771</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:63]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://swapi.dev/api&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/peopl/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>param myparam = &quot;page=999&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1545</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.57">11:26:51.957 request:
+1 &gt; GET https://swapi.dev/api/peopl?myparam=page%3D999
+1 &gt; Host: swapi.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:26:53.351 response time in milliseconds: 1385
+1 &lt; 404
+1 &lt; Server: nginx/1.16.1
+1 &lt; Date: Wed, 19 Jul 2023 16:26:51 GMT
+1 &lt; Content-Type: text/html
+1 &lt; Connection: keep-alive
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; ETag: &quot;52077777db01d15c92d4f3743c178272&quot;
+1 &lt; Content-Length: 8576
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+  &lt;title&gt;Page not found at /api/peopl/&lt;/title&gt;
+  &lt;meta name=&quot;robots&quot; content=&quot;NONE,NOARCHIVE&quot;&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body&gt;div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;summary&quot;&gt;
+    &lt;h1&gt;Page not found &lt;span&gt;(404)&lt;/span&gt;&lt;/h1&gt;
+    &lt;table class=&quot;meta&quot;&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request Method:&lt;/th&gt;
+        &lt;td&gt;GET&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request URL:&lt;/th&gt;
+      &lt;td&gt;https://swapi.dev/api/peopl/?myparam=page%3D999&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;info&quot;&gt;
+    
+      &lt;p&gt;
+      Using the URLconf defined in &lt;code&gt;swapi.urls&lt;/code&gt;,
+      Django tried these URL patterns, in this order:
+      &lt;/p&gt;
+      &lt;ol&gt;
+        
+          &lt;li&gt;
+            
+                ^admin/
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^documentation$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^about$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stats$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stripe/donation
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/people/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/planets/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/films/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/species/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/vehicles/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/starships/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+      &lt;/ol&gt;
+      &lt;p&gt;The current URL, &lt;code&gt;api/peopl/&lt;/code&gt;, didn&#39;t match any of these.&lt;/p&gt;
+    
+  &lt;/div&gt;
+
+  &lt;div id=&quot;explanation&quot;&gt;
+    &lt;p&gt;
+      You&#39;re seeing this error because you have &lt;code&gt;DEBUG = True&lt;/code&gt; in
+      your Django settings file. Change that to &lt;code&gt;False&lt;/code&gt;, and Django
+      will display a standard 404 page.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.58">
+      <div class="step-ref passed">58</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.59">
+      <div class="step-ref failed">59</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response == { &quot;detail&quot;: &quot;Page not found&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell failed">170</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.59">11:26:53.527 src/test/resources/features/swapi-get.feature:59
+And match response == { &quot;detail&quot;: &quot;Page not found&quot; }
+match failed: EQUALS
+  $ | data types don&#39;t match (STRING:MAP)
+  &#39;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+  &lt;title&gt;Page not found at /api/peopl/&lt;/title&gt;
+  &lt;meta name=&quot;robots&quot; content=&quot;NONE,NOARCHIVE&quot;&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body&gt;div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;summary&quot;&gt;
+    &lt;h1&gt;Page not found &lt;span&gt;(404)&lt;/span&gt;&lt;/h1&gt;
+    &lt;table class=&quot;meta&quot;&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request Method:&lt;/th&gt;
+        &lt;td&gt;GET&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request URL:&lt;/th&gt;
+      &lt;td&gt;https://swapi.dev/api/peopl/?myparam=page%3D999&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;info&quot;&gt;
+    
+      &lt;p&gt;
+      Using the URLconf defined in &lt;code&gt;swapi.urls&lt;/code&gt;,
+      Django tried these URL patterns, in this order:
+      &lt;/p&gt;
+      &lt;ol&gt;
+        
+          &lt;li&gt;
+            
+                ^admin/
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^documentation$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^about$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stats$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stripe/donation
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/people/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/planets/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/films/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/species/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/vehicles/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/starships/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+      &lt;/ol&gt;
+      &lt;p&gt;The current URL, &lt;code&gt;api/peopl/&lt;/code&gt;, didn&#39;t match any of these.&lt;/p&gt;
+    
+  &lt;/div&gt;
+
+  &lt;div id=&quot;explanation&quot;&gt;
+    &lt;p&gt;
+      You&#39;re seeing this error because you have &lt;code&gt;DEBUG = True&lt;/code&gt; in
+      your Django settings file. Change that to &lt;code&gt;False&lt;/code&gt;, and Django
+      will display a standard 404 page.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&#39;
+  {&quot;detail&quot;:&quot;Page not found&quot;}
+
+src/test/resources/features/swapi-get.feature:59
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4.2:64]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4.2:64]</span>
+                <span class="scenario-name">Make a query with non-existing page</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2538</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4.2:64]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4.2:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.2:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://swapi.dev/api&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/planets/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>param myparam = &quot;page=999&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2533</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.57">11:26:53.550 request:
+1 &gt; GET https://swapi.dev/api/planets?myparam=page%3D999
+1 &gt; Host: swapi.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:26:56.075 response time in milliseconds: 2524
+1 &lt; 200
+1 &lt; Server: nginx/1.16.1
+1 &lt; Date: Wed, 19 Jul 2023 16:26:54 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Connection: keep-alive
+1 &lt; Vary: Accept, Cookie
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; ETag: &quot;25d2da9def86807d2f15a5b982e89803&quot;
+1 &lt; Allow: GET, HEAD, OPTIONS
+1 &lt; Strict-Transport-Security: max-age=15768000
+1 &lt; Content-Length: 5507
+{&quot;count&quot;:60,&quot;next&quot;:&quot;https://swapi.dev/api/planets/?page=2&amp;myparam=page%3D999&quot;,&quot;previous&quot;:null,&quot;results&quot;:[{&quot;name&quot;:&quot;Tatooine&quot;,&quot;rotation_period&quot;:&quot;23&quot;,&quot;orbital_period&quot;:&quot;304&quot;,&quot;diameter&quot;:&quot;10465&quot;,&quot;climate&quot;:&quot;arid&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;desert&quot;,&quot;surface_water&quot;:&quot;1&quot;,&quot;population&quot;:&quot;200000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/1/&quot;,&quot;https://swapi.dev/api/people/2/&quot;,&quot;https://swapi.dev/api/people/4/&quot;,&quot;https://swapi.dev/api/people/6/&quot;,&quot;https://swapi.dev/api/people/7/&quot;,&quot;https://swapi.dev/api/people/8/&quot;,&quot;https://swapi.dev/api/people/9/&quot;,&quot;https://swapi.dev/api/people/11/&quot;,&quot;https://swapi.dev/api/people/43/&quot;,&quot;https://swapi.dev/api/people/62/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/3/&quot;,&quot;https://swapi.dev/api/films/4/&quot;,&quot;https://swapi.dev/api/films/5/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-09T13:50:49.641000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.411000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/1/&quot;},{&quot;name&quot;:&quot;Alderaan&quot;,&quot;rotation_period&quot;:&quot;24&quot;,&quot;orbital_period&quot;:&quot;364&quot;,&quot;diameter&quot;:&quot;12500&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;grasslands, mountains&quot;,&quot;surface_water&quot;:&quot;40&quot;,&quot;population&quot;:&quot;2000000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/5/&quot;,&quot;https://swapi.dev/api/people/68/&quot;,&quot;https://swapi.dev/api/people/81/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-10T11:35:48.479000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.420000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/2/&quot;},{&quot;name&quot;:&quot;Yavin IV&quot;,&quot;rotation_period&quot;:&quot;24&quot;,&quot;orbital_period&quot;:&quot;4818&quot;,&quot;diameter&quot;:&quot;10200&quot;,&quot;climate&quot;:&quot;temperate, tropical&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;jungle, rainforests&quot;,&quot;surface_water&quot;:&quot;8&quot;,&quot;population&quot;:&quot;1000&quot;,&quot;residents&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-10T11:37:19.144000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.421000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/3/&quot;},{&quot;name&quot;:&quot;Hoth&quot;,&quot;rotation_period&quot;:&quot;23&quot;,&quot;orbital_period&quot;:&quot;549&quot;,&quot;diameter&quot;:&quot;7200&quot;,&quot;climate&quot;:&quot;frozen&quot;,&quot;gravity&quot;:&quot;1.1 standard&quot;,&quot;terrain&quot;:&quot;tundra, ice caves, mountain ranges&quot;,&quot;surface_water&quot;:&quot;100&quot;,&quot;population&quot;:&quot;unknown&quot;,&quot;residents&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;],&quot;created&quot;:&quot;2014-12-10T11:39:13.934000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.423000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/4/&quot;},{&quot;name&quot;:&quot;Dagobah&quot;,&quot;rotation_period&quot;:&quot;23&quot;,&quot;orbital_period&quot;:&quot;341&quot;,&quot;diameter&quot;:&quot;8900&quot;,&quot;climate&quot;:&quot;murky&quot;,&quot;gravity&quot;:&quot;N/A&quot;,&quot;terrain&quot;:&quot;swamp, jungles&quot;,&quot;surface_water&quot;:&quot;8&quot;,&quot;population&quot;:&quot;unknown&quot;,&quot;residents&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-10T11:42:22.590000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.425000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/5/&quot;},{&quot;name&quot;:&quot;Bespin&quot;,&quot;rotation_period&quot;:&quot;12&quot;,&quot;orbital_period&quot;:&quot;5110&quot;,&quot;diameter&quot;:&quot;118000&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;1.5 (surface), 1 standard (Cloud City)&quot;,&quot;terrain&quot;:&quot;gas giant&quot;,&quot;surface_water&quot;:&quot;0&quot;,&quot;population&quot;:&quot;6000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/26/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;],&quot;created&quot;:&quot;2014-12-10T11:43:55.240000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.427000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/6/&quot;},{&quot;name&quot;:&quot;Endor&quot;,&quot;rotation_period&quot;:&quot;18&quot;,&quot;orbital_period&quot;:&quot;402&quot;,&quot;diameter&quot;:&quot;4900&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;0.85 standard&quot;,&quot;terrain&quot;:&quot;forests, mountains, lakes&quot;,&quot;surface_water&quot;:&quot;8&quot;,&quot;population&quot;:&quot;30000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/30/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-10T11:50:29.349000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.429000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/7/&quot;},{&quot;name&quot;:&quot;Naboo&quot;,&quot;rotation_period&quot;:&quot;26&quot;,&quot;orbital_period&quot;:&quot;312&quot;,&quot;diameter&quot;:&quot;12120&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;grassy hills, swamps, forests, mountains&quot;,&quot;surface_water&quot;:&quot;12&quot;,&quot;population&quot;:&quot;4500000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/3/&quot;,&quot;https://swapi.dev/api/people/21/&quot;,&quot;https://swapi.dev/api/people/35/&quot;,&quot;https://swapi.dev/api/people/36/&quot;,&quot;https://swapi.dev/api/people/37/&quot;,&quot;https://swapi.dev/api/people/38/&quot;,&quot;https://swapi.dev/api/people/39/&quot;,&quot;https://swapi.dev/api/people/42/&quot;,&quot;https://swapi.dev/api/people/60/&quot;,&quot;https://swapi.dev/api/people/61/&quot;,&quot;https://swapi.dev/api/people/66/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/3/&quot;,&quot;https://swapi.dev/api/films/4/&quot;,&quot;https://swapi.dev/api/films/5/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-10T11:52:31.066000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.430000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/8/&quot;},{&quot;name&quot;:&quot;Coruscant&quot;,&quot;rotation_period&quot;:&quot;24&quot;,&quot;orbital_period&quot;:&quot;368&quot;,&quot;diameter&quot;:&quot;12240&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;cityscape, mountains&quot;,&quot;surface_water&quot;:&quot;unknown&quot;,&quot;population&quot;:&quot;1000000000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/34/&quot;,&quot;https://swapi.dev/api/people/55/&quot;,&quot;https://swapi.dev/api/people/74/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/3/&quot;,&quot;https://swapi.dev/api/films/4/&quot;,&quot;https://swapi.dev/api/films/5/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-10T11:54:13.921000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.432000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/9/&quot;},{&quot;name&quot;:&quot;Kamino&quot;,&quot;rotation_period&quot;:&quot;27&quot;,&quot;orbital_period&quot;:&quot;463&quot;,&quot;diameter&quot;:&quot;19720&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;ocean&quot;,&quot;surface_water&quot;:&quot;100&quot;,&quot;population&quot;:&quot;1000000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/22/&quot;,&quot;https://swapi.dev/api/people/72/&quot;,&quot;https://swapi.dev/api/people/73/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/5/&quot;],&quot;created&quot;:&quot;2014-12-10T12:45:06.577000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.434000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/10/&quot;}]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.58">
+      <div class="step-ref failed">58</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.58">11:26:56.079 src/test/resources/features/swapi-get.feature:58
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 2524, url: https://swapi.dev/api/planets?myparam=page%3D999, response: 
+{&quot;count&quot;:60,&quot;next&quot;:&quot;https://swapi.dev/api/planets/?page=2&amp;myparam=page%3D999&quot;,&quot;previous&quot;:null,&quot;results&quot;:[{&quot;name&quot;:&quot;Tatooine&quot;,&quot;rotation_period&quot;:&quot;23&quot;,&quot;orbital_period&quot;:&quot;304&quot;,&quot;diameter&quot;:&quot;10465&quot;,&quot;climate&quot;:&quot;arid&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;desert&quot;,&quot;surface_water&quot;:&quot;1&quot;,&quot;population&quot;:&quot;200000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/1/&quot;,&quot;https://swapi.dev/api/people/2/&quot;,&quot;https://swapi.dev/api/people/4/&quot;,&quot;https://swapi.dev/api/people/6/&quot;,&quot;https://swapi.dev/api/people/7/&quot;,&quot;https://swapi.dev/api/people/8/&quot;,&quot;https://swapi.dev/api/people/9/&quot;,&quot;https://swapi.dev/api/people/11/&quot;,&quot;https://swapi.dev/api/people/43/&quot;,&quot;https://swapi.dev/api/people/62/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/3/&quot;,&quot;https://swapi.dev/api/films/4/&quot;,&quot;https://swapi.dev/api/films/5/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-09T13:50:49.641000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.411000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/1/&quot;},{&quot;name&quot;:&quot;Alderaan&quot;,&quot;rotation_period&quot;:&quot;24&quot;,&quot;orbital_period&quot;:&quot;364&quot;,&quot;diameter&quot;:&quot;12500&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;grasslands, mountains&quot;,&quot;surface_water&quot;:&quot;40&quot;,&quot;population&quot;:&quot;2000000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/5/&quot;,&quot;https://swapi.dev/api/people/68/&quot;,&quot;https://swapi.dev/api/people/81/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-10T11:35:48.479000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.420000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/2/&quot;},{&quot;name&quot;:&quot;Yavin IV&quot;,&quot;rotation_period&quot;:&quot;24&quot;,&quot;orbital_period&quot;:&quot;4818&quot;,&quot;diameter&quot;:&quot;10200&quot;,&quot;climate&quot;:&quot;temperate, tropical&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;jungle, rainforests&quot;,&quot;surface_water&quot;:&quot;8&quot;,&quot;population&quot;:&quot;1000&quot;,&quot;residents&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-10T11:37:19.144000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.421000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/3/&quot;},{&quot;name&quot;:&quot;Hoth&quot;,&quot;rotation_period&quot;:&quot;23&quot;,&quot;orbital_period&quot;:&quot;549&quot;,&quot;diameter&quot;:&quot;7200&quot;,&quot;climate&quot;:&quot;frozen&quot;,&quot;gravity&quot;:&quot;1.1 standard&quot;,&quot;terrain&quot;:&quot;tundra, ice caves, mountain ranges&quot;,&quot;surface_water&quot;:&quot;100&quot;,&quot;population&quot;:&quot;unknown&quot;,&quot;residents&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;],&quot;created&quot;:&quot;2014-12-10T11:39:13.934000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.423000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/4/&quot;},{&quot;name&quot;:&quot;Dagobah&quot;,&quot;rotation_period&quot;:&quot;23&quot;,&quot;orbital_period&quot;:&quot;341&quot;,&quot;diameter&quot;:&quot;8900&quot;,&quot;climate&quot;:&quot;murky&quot;,&quot;gravity&quot;:&quot;N/A&quot;,&quot;terrain&quot;:&quot;swamp, jungles&quot;,&quot;surface_water&quot;:&quot;8&quot;,&quot;population&quot;:&quot;unknown&quot;,&quot;residents&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-10T11:42:22.590000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.425000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/5/&quot;},{&quot;name&quot;:&quot;Bespin&quot;,&quot;rotation_period&quot;:&quot;12&quot;,&quot;orbital_period&quot;:&quot;5110&quot;,&quot;diameter&quot;:&quot;118000&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;1.5 (surface), 1 standard (Cloud City)&quot;,&quot;terrain&quot;:&quot;gas giant&quot;,&quot;surface_water&quot;:&quot;0&quot;,&quot;population&quot;:&quot;6000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/26/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;],&quot;created&quot;:&quot;2014-12-10T11:43:55.240000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.427000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/6/&quot;},{&quot;name&quot;:&quot;Endor&quot;,&quot;rotation_period&quot;:&quot;18&quot;,&quot;orbital_period&quot;:&quot;402&quot;,&quot;diameter&quot;:&quot;4900&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;0.85 standard&quot;,&quot;terrain&quot;:&quot;forests, mountains, lakes&quot;,&quot;surface_water&quot;:&quot;8&quot;,&quot;population&quot;:&quot;30000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/30/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-10T11:50:29.349000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.429000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/7/&quot;},{&quot;name&quot;:&quot;Naboo&quot;,&quot;rotation_period&quot;:&quot;26&quot;,&quot;orbital_period&quot;:&quot;312&quot;,&quot;diameter&quot;:&quot;12120&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;grassy hills, swamps, forests, mountains&quot;,&quot;surface_water&quot;:&quot;12&quot;,&quot;population&quot;:&quot;4500000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/3/&quot;,&quot;https://swapi.dev/api/people/21/&quot;,&quot;https://swapi.dev/api/people/35/&quot;,&quot;https://swapi.dev/api/people/36/&quot;,&quot;https://swapi.dev/api/people/37/&quot;,&quot;https://swapi.dev/api/people/38/&quot;,&quot;https://swapi.dev/api/people/39/&quot;,&quot;https://swapi.dev/api/people/42/&quot;,&quot;https://swapi.dev/api/people/60/&quot;,&quot;https://swapi.dev/api/people/61/&quot;,&quot;https://swapi.dev/api/people/66/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/3/&quot;,&quot;https://swapi.dev/api/films/4/&quot;,&quot;https://swapi.dev/api/films/5/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-10T11:52:31.066000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.430000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/8/&quot;},{&quot;name&quot;:&quot;Coruscant&quot;,&quot;rotation_period&quot;:&quot;24&quot;,&quot;orbital_period&quot;:&quot;368&quot;,&quot;diameter&quot;:&quot;12240&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;cityscape, mountains&quot;,&quot;surface_water&quot;:&quot;unknown&quot;,&quot;population&quot;:&quot;1000000000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/34/&quot;,&quot;https://swapi.dev/api/people/55/&quot;,&quot;https://swapi.dev/api/people/74/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/3/&quot;,&quot;https://swapi.dev/api/films/4/&quot;,&quot;https://swapi.dev/api/films/5/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-10T11:54:13.921000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.432000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/9/&quot;},{&quot;name&quot;:&quot;Kamino&quot;,&quot;rotation_period&quot;:&quot;27&quot;,&quot;orbital_period&quot;:&quot;463&quot;,&quot;diameter&quot;:&quot;19720&quot;,&quot;climate&quot;:&quot;temperate&quot;,&quot;gravity&quot;:&quot;1 standard&quot;,&quot;terrain&quot;:&quot;ocean&quot;,&quot;surface_water&quot;:&quot;100&quot;,&quot;population&quot;:&quot;1000000000&quot;,&quot;residents&quot;:[&quot;https://swapi.dev/api/people/22/&quot;,&quot;https://swapi.dev/api/people/72/&quot;,&quot;https://swapi.dev/api/people/73/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/5/&quot;],&quot;created&quot;:&quot;2014-12-10T12:45:06.577000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T20:58:18.434000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/planets/10/&quot;}]}
+src/test/resources/features/swapi-get.feature:58
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.59">
+      <div class="step-ref skipped">59</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == { &quot;detail&quot;: &quot;Page not found&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4.3:65]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4.3:65]</span>
+                <span class="scenario-name">Make a query with non-existing page</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2025</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4.3:65]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4.3:65]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.3:65]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://swapi.dev/api&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/vehicles/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>param myparam = &quot;page=999&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2017</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.57">11:26:56.122 request:
+1 &gt; GET https://swapi.dev/api/vehicles?myparam=page%3D999
+1 &gt; Host: swapi.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:26:58.132 response time in milliseconds: 2009
+1 &lt; 200
+1 &lt; Server: nginx/1.16.1
+1 &lt; Date: Wed, 19 Jul 2023 16:26:56 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Connection: keep-alive
+1 &lt; Vary: Accept, Cookie
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; ETag: &quot;2295f7c4fdd5a62135533133810a56e7&quot;
+1 &lt; Allow: GET, HEAD, OPTIONS
+1 &lt; Strict-Transport-Security: max-age=15768000
+1 &lt; Content-Length: 4990
+{&quot;count&quot;:39,&quot;next&quot;:&quot;https://swapi.dev/api/vehicles/?page=2&amp;myparam=page%3D999&quot;,&quot;previous&quot;:null,&quot;results&quot;:[{&quot;name&quot;:&quot;Sand Crawler&quot;,&quot;model&quot;:&quot;Digger Crawler&quot;,&quot;manufacturer&quot;:&quot;Corellia Mining Corporation&quot;,&quot;cost_in_credits&quot;:&quot;150000&quot;,&quot;length&quot;:&quot;36.8 &quot;,&quot;max_atmosphering_speed&quot;:&quot;30&quot;,&quot;crew&quot;:&quot;46&quot;,&quot;passengers&quot;:&quot;30&quot;,&quot;cargo_capacity&quot;:&quot;50000&quot;,&quot;consumables&quot;:&quot;2 months&quot;,&quot;vehicle_class&quot;:&quot;wheeled&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/5/&quot;],&quot;created&quot;:&quot;2014-12-10T15:36:25.724000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.661000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/4/&quot;},{&quot;name&quot;:&quot;T-16 skyhopper&quot;,&quot;model&quot;:&quot;T-16 skyhopper&quot;,&quot;manufacturer&quot;:&quot;Incom Corporation&quot;,&quot;cost_in_credits&quot;:&quot;14500&quot;,&quot;length&quot;:&quot;10.4 &quot;,&quot;max_atmosphering_speed&quot;:&quot;1200&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;1&quot;,&quot;cargo_capacity&quot;:&quot;50&quot;,&quot;consumables&quot;:&quot;0&quot;,&quot;vehicle_class&quot;:&quot;repulsorcraft&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-10T16:01:52.434000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.665000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/6/&quot;},{&quot;name&quot;:&quot;X-34 landspeeder&quot;,&quot;model&quot;:&quot;X-34 landspeeder&quot;,&quot;manufacturer&quot;:&quot;SoroSuub Corporation&quot;,&quot;cost_in_credits&quot;:&quot;10550&quot;,&quot;length&quot;:&quot;3.4 &quot;,&quot;max_atmosphering_speed&quot;:&quot;250&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;1&quot;,&quot;cargo_capacity&quot;:&quot;5&quot;,&quot;consumables&quot;:&quot;unknown&quot;,&quot;vehicle_class&quot;:&quot;repulsorcraft&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-10T16:13:52.586000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.668000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/7/&quot;},{&quot;name&quot;:&quot;TIE/LN starfighter&quot;,&quot;model&quot;:&quot;Twin Ion Engine/Ln Starfighter&quot;,&quot;manufacturer&quot;:&quot;Sienar Fleet Systems&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;6.4&quot;,&quot;max_atmosphering_speed&quot;:&quot;1200&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;65&quot;,&quot;consumables&quot;:&quot;2 days&quot;,&quot;vehicle_class&quot;:&quot;starfighter&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-10T16:33:52.860000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.670000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/8/&quot;},{&quot;name&quot;:&quot;Snowspeeder&quot;,&quot;model&quot;:&quot;t-47 airspeeder&quot;,&quot;manufacturer&quot;:&quot;Incom corporation&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;4.5&quot;,&quot;max_atmosphering_speed&quot;:&quot;650&quot;,&quot;crew&quot;:&quot;2&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;10&quot;,&quot;consumables&quot;:&quot;none&quot;,&quot;vehicle_class&quot;:&quot;airspeeder&quot;,&quot;pilots&quot;:[&quot;https://swapi.dev/api/people/1/&quot;,&quot;https://swapi.dev/api/people/18/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;],&quot;created&quot;:&quot;2014-12-15T12:22:12Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.672000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/14/&quot;},{&quot;name&quot;:&quot;TIE bomber&quot;,&quot;model&quot;:&quot;TIE/sa bomber&quot;,&quot;manufacturer&quot;:&quot;Sienar Fleet Systems&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;7.8&quot;,&quot;max_atmosphering_speed&quot;:&quot;850&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;none&quot;,&quot;consumables&quot;:&quot;2 days&quot;,&quot;vehicle_class&quot;:&quot;space/planetary bomber&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-15T12:33:15.838000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.675000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/16/&quot;},{&quot;name&quot;:&quot;AT-AT&quot;,&quot;model&quot;:&quot;All Terrain Armored Transport&quot;,&quot;manufacturer&quot;:&quot;Kuat Drive Yards, Imperial Department of Military Research&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;20&quot;,&quot;max_atmosphering_speed&quot;:&quot;60&quot;,&quot;crew&quot;:&quot;5&quot;,&quot;passengers&quot;:&quot;40&quot;,&quot;cargo_capacity&quot;:&quot;1000&quot;,&quot;consumables&quot;:&quot;unknown&quot;,&quot;vehicle_class&quot;:&quot;assault walker&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-15T12:38:25.937000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.677000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/18/&quot;},{&quot;name&quot;:&quot;AT-ST&quot;,&quot;model&quot;:&quot;All Terrain Scout Transport&quot;,&quot;manufacturer&quot;:&quot;Kuat Drive Yards, Imperial Department of Military Research&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;2&quot;,&quot;max_atmosphering_speed&quot;:&quot;90&quot;,&quot;crew&quot;:&quot;2&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;200&quot;,&quot;consumables&quot;:&quot;none&quot;,&quot;vehicle_class&quot;:&quot;walker&quot;,&quot;pilots&quot;:[&quot;https://swapi.dev/api/people/13/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-15T12:46:42.384000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.679000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/19/&quot;},{&quot;name&quot;:&quot;Storm IV Twin-Pod cloud car&quot;,&quot;model&quot;:&quot;Storm IV Twin-Pod&quot;,&quot;manufacturer&quot;:&quot;Bespin Motors&quot;,&quot;cost_in_credits&quot;:&quot;75000&quot;,&quot;length&quot;:&quot;7&quot;,&quot;max_atmosphering_speed&quot;:&quot;1500&quot;,&quot;crew&quot;:&quot;2&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;10&quot;,&quot;consumables&quot;:&quot;1 day&quot;,&quot;vehicle_class&quot;:&quot;repulsorcraft&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;],&quot;created&quot;:&quot;2014-12-15T12:58:50.530000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.681000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/20/&quot;},{&quot;name&quot;:&quot;Sail barge&quot;,&quot;model&quot;:&quot;Modified Luxury Sail Barge&quot;,&quot;manufacturer&quot;:&quot;Ubrikkian Industries Custom Vehicle Division&quot;,&quot;cost_in_credits&quot;:&quot;285000&quot;,&quot;length&quot;:&quot;30&quot;,&quot;max_atmosphering_speed&quot;:&quot;100&quot;,&quot;crew&quot;:&quot;26&quot;,&quot;passengers&quot;:&quot;500&quot;,&quot;cargo_capacity&quot;:&quot;2000000&quot;,&quot;consumables&quot;:&quot;Live food tanks&quot;,&quot;vehicle_class&quot;:&quot;sail barge&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-18T10:44:14.217000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.684000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/24/&quot;}]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.58">
+      <div class="step-ref failed">58</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.58">11:26:58.135 src/test/resources/features/swapi-get.feature:58
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 2009, url: https://swapi.dev/api/vehicles?myparam=page%3D999, response: 
+{&quot;count&quot;:39,&quot;next&quot;:&quot;https://swapi.dev/api/vehicles/?page=2&amp;myparam=page%3D999&quot;,&quot;previous&quot;:null,&quot;results&quot;:[{&quot;name&quot;:&quot;Sand Crawler&quot;,&quot;model&quot;:&quot;Digger Crawler&quot;,&quot;manufacturer&quot;:&quot;Corellia Mining Corporation&quot;,&quot;cost_in_credits&quot;:&quot;150000&quot;,&quot;length&quot;:&quot;36.8 &quot;,&quot;max_atmosphering_speed&quot;:&quot;30&quot;,&quot;crew&quot;:&quot;46&quot;,&quot;passengers&quot;:&quot;30&quot;,&quot;cargo_capacity&quot;:&quot;50000&quot;,&quot;consumables&quot;:&quot;2 months&quot;,&quot;vehicle_class&quot;:&quot;wheeled&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/5/&quot;],&quot;created&quot;:&quot;2014-12-10T15:36:25.724000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.661000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/4/&quot;},{&quot;name&quot;:&quot;T-16 skyhopper&quot;,&quot;model&quot;:&quot;T-16 skyhopper&quot;,&quot;manufacturer&quot;:&quot;Incom Corporation&quot;,&quot;cost_in_credits&quot;:&quot;14500&quot;,&quot;length&quot;:&quot;10.4 &quot;,&quot;max_atmosphering_speed&quot;:&quot;1200&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;1&quot;,&quot;cargo_capacity&quot;:&quot;50&quot;,&quot;consumables&quot;:&quot;0&quot;,&quot;vehicle_class&quot;:&quot;repulsorcraft&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-10T16:01:52.434000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.665000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/6/&quot;},{&quot;name&quot;:&quot;X-34 landspeeder&quot;,&quot;model&quot;:&quot;X-34 landspeeder&quot;,&quot;manufacturer&quot;:&quot;SoroSuub Corporation&quot;,&quot;cost_in_credits&quot;:&quot;10550&quot;,&quot;length&quot;:&quot;3.4 &quot;,&quot;max_atmosphering_speed&quot;:&quot;250&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;1&quot;,&quot;cargo_capacity&quot;:&quot;5&quot;,&quot;consumables&quot;:&quot;unknown&quot;,&quot;vehicle_class&quot;:&quot;repulsorcraft&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-10T16:13:52.586000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.668000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/7/&quot;},{&quot;name&quot;:&quot;TIE/LN starfighter&quot;,&quot;model&quot;:&quot;Twin Ion Engine/Ln Starfighter&quot;,&quot;manufacturer&quot;:&quot;Sienar Fleet Systems&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;6.4&quot;,&quot;max_atmosphering_speed&quot;:&quot;1200&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;65&quot;,&quot;consumables&quot;:&quot;2 days&quot;,&quot;vehicle_class&quot;:&quot;starfighter&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-10T16:33:52.860000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.670000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/8/&quot;},{&quot;name&quot;:&quot;Snowspeeder&quot;,&quot;model&quot;:&quot;t-47 airspeeder&quot;,&quot;manufacturer&quot;:&quot;Incom corporation&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;4.5&quot;,&quot;max_atmosphering_speed&quot;:&quot;650&quot;,&quot;crew&quot;:&quot;2&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;10&quot;,&quot;consumables&quot;:&quot;none&quot;,&quot;vehicle_class&quot;:&quot;airspeeder&quot;,&quot;pilots&quot;:[&quot;https://swapi.dev/api/people/1/&quot;,&quot;https://swapi.dev/api/people/18/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;],&quot;created&quot;:&quot;2014-12-15T12:22:12Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.672000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/14/&quot;},{&quot;name&quot;:&quot;TIE bomber&quot;,&quot;model&quot;:&quot;TIE/sa bomber&quot;,&quot;manufacturer&quot;:&quot;Sienar Fleet Systems&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;7.8&quot;,&quot;max_atmosphering_speed&quot;:&quot;850&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;none&quot;,&quot;consumables&quot;:&quot;2 days&quot;,&quot;vehicle_class&quot;:&quot;space/planetary bomber&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-15T12:33:15.838000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.675000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/16/&quot;},{&quot;name&quot;:&quot;AT-AT&quot;,&quot;model&quot;:&quot;All Terrain Armored Transport&quot;,&quot;manufacturer&quot;:&quot;Kuat Drive Yards, Imperial Department of Military Research&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;20&quot;,&quot;max_atmosphering_speed&quot;:&quot;60&quot;,&quot;crew&quot;:&quot;5&quot;,&quot;passengers&quot;:&quot;40&quot;,&quot;cargo_capacity&quot;:&quot;1000&quot;,&quot;consumables&quot;:&quot;unknown&quot;,&quot;vehicle_class&quot;:&quot;assault walker&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-15T12:38:25.937000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.677000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/18/&quot;},{&quot;name&quot;:&quot;AT-ST&quot;,&quot;model&quot;:&quot;All Terrain Scout Transport&quot;,&quot;manufacturer&quot;:&quot;Kuat Drive Yards, Imperial Department of Military Research&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;2&quot;,&quot;max_atmosphering_speed&quot;:&quot;90&quot;,&quot;crew&quot;:&quot;2&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;200&quot;,&quot;consumables&quot;:&quot;none&quot;,&quot;vehicle_class&quot;:&quot;walker&quot;,&quot;pilots&quot;:[&quot;https://swapi.dev/api/people/13/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-15T12:46:42.384000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.679000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/19/&quot;},{&quot;name&quot;:&quot;Storm IV Twin-Pod cloud car&quot;,&quot;model&quot;:&quot;Storm IV Twin-Pod&quot;,&quot;manufacturer&quot;:&quot;Bespin Motors&quot;,&quot;cost_in_credits&quot;:&quot;75000&quot;,&quot;length&quot;:&quot;7&quot;,&quot;max_atmosphering_speed&quot;:&quot;1500&quot;,&quot;crew&quot;:&quot;2&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;10&quot;,&quot;consumables&quot;:&quot;1 day&quot;,&quot;vehicle_class&quot;:&quot;repulsorcraft&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;],&quot;created&quot;:&quot;2014-12-15T12:58:50.530000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.681000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/20/&quot;},{&quot;name&quot;:&quot;Sail barge&quot;,&quot;model&quot;:&quot;Modified Luxury Sail Barge&quot;,&quot;manufacturer&quot;:&quot;Ubrikkian Industries Custom Vehicle Division&quot;,&quot;cost_in_credits&quot;:&quot;285000&quot;,&quot;length&quot;:&quot;30&quot;,&quot;max_atmosphering_speed&quot;:&quot;100&quot;,&quot;crew&quot;:&quot;26&quot;,&quot;passengers&quot;:&quot;500&quot;,&quot;cargo_capacity&quot;:&quot;2000000&quot;,&quot;consumables&quot;:&quot;Live food tanks&quot;,&quot;vehicle_class&quot;:&quot;sail barge&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-18T10:44:14.217000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:30:21.684000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/vehicles/24/&quot;}]}
+src/test/resources/features/swapi-get.feature:58
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.59">
+      <div class="step-ref skipped">59</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == { &quot;detail&quot;: &quot;Page not found&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4.4:66]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4.4:66]</span>
+                <span class="scenario-name">Make a query with non-existing page</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2179</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4.4:66]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4.4:66]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.4:66]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://swapi.dev/api&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/starships/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>param myparam = &quot;page=999&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2176</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.57">11:26:58.149 request:
+1 &gt; GET https://swapi.dev/api/starships?myparam=page%3D999
+1 &gt; Host: swapi.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:27:00.318 response time in milliseconds: 2168
+1 &lt; 200
+1 &lt; Server: nginx/1.16.1
+1 &lt; Date: Wed, 19 Jul 2023 16:26:58 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Connection: keep-alive
+1 &lt; Vary: Accept, Cookie
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; ETag: &quot;c0d4ebde21418bf301d87b5f0d454004&quot;
+1 &lt; Allow: GET, HEAD, OPTIONS
+1 &lt; Strict-Transport-Security: max-age=15768000
+1 &lt; Content-Length: 5970
+{&quot;count&quot;:36,&quot;next&quot;:&quot;https://swapi.dev/api/starships/?page=2&amp;myparam=page%3D999&quot;,&quot;previous&quot;:null,&quot;results&quot;:[{&quot;name&quot;:&quot;CR90 corvette&quot;,&quot;model&quot;:&quot;CR90 corvette&quot;,&quot;manufacturer&quot;:&quot;Corellian Engineering Corporation&quot;,&quot;cost_in_credits&quot;:&quot;3500000&quot;,&quot;length&quot;:&quot;150&quot;,&quot;max_atmosphering_speed&quot;:&quot;950&quot;,&quot;crew&quot;:&quot;30-165&quot;,&quot;passengers&quot;:&quot;600&quot;,&quot;cargo_capacity&quot;:&quot;3000000&quot;,&quot;consumables&quot;:&quot;1 year&quot;,&quot;hyperdrive_rating&quot;:&quot;2.0&quot;,&quot;MGLT&quot;:&quot;60&quot;,&quot;starship_class&quot;:&quot;corvette&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/3/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-10T14:20:33.369000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.867000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/2/&quot;},{&quot;name&quot;:&quot;Star Destroyer&quot;,&quot;model&quot;:&quot;Imperial I-class Star Destroyer&quot;,&quot;manufacturer&quot;:&quot;Kuat Drive Yards&quot;,&quot;cost_in_credits&quot;:&quot;150000000&quot;,&quot;length&quot;:&quot;1,600&quot;,&quot;max_atmosphering_speed&quot;:&quot;975&quot;,&quot;crew&quot;:&quot;47,060&quot;,&quot;passengers&quot;:&quot;n/a&quot;,&quot;cargo_capacity&quot;:&quot;36000000&quot;,&quot;consumables&quot;:&quot;2 years&quot;,&quot;hyperdrive_rating&quot;:&quot;2.0&quot;,&quot;MGLT&quot;:&quot;60&quot;,&quot;starship_class&quot;:&quot;Star Destroyer&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-10T15:08:19.848000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.870000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/3/&quot;},{&quot;name&quot;:&quot;Sentinel-class landing craft&quot;,&quot;model&quot;:&quot;Sentinel-class landing craft&quot;,&quot;manufacturer&quot;:&quot;Sienar Fleet Systems, Cyngus Spaceworks&quot;,&quot;cost_in_credits&quot;:&quot;240000&quot;,&quot;length&quot;:&quot;38&quot;,&quot;max_atmosphering_speed&quot;:&quot;1000&quot;,&quot;crew&quot;:&quot;5&quot;,&quot;passengers&quot;:&quot;75&quot;,&quot;cargo_capacity&quot;:&quot;180000&quot;,&quot;consumables&quot;:&quot;1 month&quot;,&quot;hyperdrive_rating&quot;:&quot;1.0&quot;,&quot;MGLT&quot;:&quot;70&quot;,&quot;starship_class&quot;:&quot;landing craft&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-10T15:48:00.586000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.873000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/5/&quot;},{&quot;name&quot;:&quot;Death Star&quot;,&quot;model&quot;:&quot;DS-1 Orbital Battle Station&quot;,&quot;manufacturer&quot;:&quot;Imperial Department of Military Research, Sienar Fleet Systems&quot;,&quot;cost_in_credits&quot;:&quot;1000000000000&quot;,&quot;length&quot;:&quot;120000&quot;,&quot;max_atmosphering_speed&quot;:&quot;n/a&quot;,&quot;crew&quot;:&quot;342,953&quot;,&quot;passengers&quot;:&quot;843,342&quot;,&quot;cargo_capacity&quot;:&quot;1000000000000&quot;,&quot;consumables&quot;:&quot;3 years&quot;,&quot;hyperdrive_rating&quot;:&quot;4.0&quot;,&quot;MGLT&quot;:&quot;10&quot;,&quot;starship_class&quot;:&quot;Deep Space Mobile Battlestation&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-10T16:36:50.509000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:26:24.783000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/9/&quot;},{&quot;name&quot;:&quot;Millennium Falcon&quot;,&quot;model&quot;:&quot;YT-1300 light freighter&quot;,&quot;manufacturer&quot;:&quot;Corellian Engineering Corporation&quot;,&quot;cost_in_credits&quot;:&quot;100000&quot;,&quot;length&quot;:&quot;34.37&quot;,&quot;max_atmosphering_speed&quot;:&quot;1050&quot;,&quot;crew&quot;:&quot;4&quot;,&quot;passengers&quot;:&quot;6&quot;,&quot;cargo_capacity&quot;:&quot;100000&quot;,&quot;consumables&quot;:&quot;2 months&quot;,&quot;hyperdrive_rating&quot;:&quot;0.5&quot;,&quot;MGLT&quot;:&quot;75&quot;,&quot;starship_class&quot;:&quot;Light freighter&quot;,&quot;pilots&quot;:[&quot;https://swapi.dev/api/people/13/&quot;,&quot;https://swapi.dev/api/people/14/&quot;,&quot;https://swapi.dev/api/people/25/&quot;,&quot;https://swapi.dev/api/people/31/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-10T16:59:45.094000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.880000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/10/&quot;},{&quot;name&quot;:&quot;Y-wing&quot;,&quot;model&quot;:&quot;BTL Y-wing&quot;,&quot;manufacturer&quot;:&quot;Koensayr Manufacturing&quot;,&quot;cost_in_credits&quot;:&quot;134999&quot;,&quot;length&quot;:&quot;14&quot;,&quot;max_atmosphering_speed&quot;:&quot;1000km&quot;,&quot;crew&quot;:&quot;2&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;110&quot;,&quot;consumables&quot;:&quot;1 week&quot;,&quot;hyperdrive_rating&quot;:&quot;1.0&quot;,&quot;MGLT&quot;:&quot;80&quot;,&quot;starship_class&quot;:&quot;assault starfighter&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-12T11:00:39.817000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.883000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/11/&quot;},{&quot;name&quot;:&quot;X-wing&quot;,&quot;model&quot;:&quot;T-65 X-wing&quot;,&quot;manufacturer&quot;:&quot;Incom Corporation&quot;,&quot;cost_in_credits&quot;:&quot;149999&quot;,&quot;length&quot;:&quot;12.5&quot;,&quot;max_atmosphering_speed&quot;:&quot;1050&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;110&quot;,&quot;consumables&quot;:&quot;1 week&quot;,&quot;hyperdrive_rating&quot;:&quot;1.0&quot;,&quot;MGLT&quot;:&quot;100&quot;,&quot;starship_class&quot;:&quot;Starfighter&quot;,&quot;pilots&quot;:[&quot;https://swapi.dev/api/people/1/&quot;,&quot;https://swapi.dev/api/people/9/&quot;,&quot;https://swapi.dev/api/people/18/&quot;,&quot;https://swapi.dev/api/people/19/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-12T11:19:05.340000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.886000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/12/&quot;},{&quot;name&quot;:&quot;TIE Advanced x1&quot;,&quot;model&quot;:&quot;Twin Ion Engine Advanced x1&quot;,&quot;manufacturer&quot;:&quot;Sienar Fleet Systems&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;9.2&quot;,&quot;max_atmosphering_speed&quot;:&quot;1200&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;150&quot;,&quot;consumables&quot;:&quot;5 days&quot;,&quot;hyperdrive_rating&quot;:&quot;1.0&quot;,&quot;MGLT&quot;:&quot;105&quot;,&quot;starship_class&quot;:&quot;Starfighter&quot;,&quot;pilots&quot;:[&quot;https://swapi.dev/api/people/4/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-12T11:21:32.991000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.889000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/13/&quot;},{&quot;name&quot;:&quot;Executor&quot;,&quot;model&quot;:&quot;Executor-class star dreadnought&quot;,&quot;manufacturer&quot;:&quot;Kuat Drive Yards, Fondor Shipyards&quot;,&quot;cost_in_credits&quot;:&quot;1143350000&quot;,&quot;length&quot;:&quot;19000&quot;,&quot;max_atmosphering_speed&quot;:&quot;n/a&quot;,&quot;crew&quot;:&quot;279,144&quot;,&quot;passengers&quot;:&quot;38000&quot;,&quot;cargo_capacity&quot;:&quot;250000000&quot;,&quot;consumables&quot;:&quot;6 years&quot;,&quot;hyperdrive_rating&quot;:&quot;2.0&quot;,&quot;MGLT&quot;:&quot;40&quot;,&quot;starship_class&quot;:&quot;Star dreadnought&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-15T12:31:42.547000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.893000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/15/&quot;},{&quot;name&quot;:&quot;Rebel transport&quot;,&quot;model&quot;:&quot;GR-75 medium transport&quot;,&quot;manufacturer&quot;:&quot;Gallofree Yards, Inc.&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;90&quot;,&quot;max_atmosphering_speed&quot;:&quot;650&quot;,&quot;crew&quot;:&quot;6&quot;,&quot;passengers&quot;:&quot;90&quot;,&quot;cargo_capacity&quot;:&quot;19000000&quot;,&quot;consumables&quot;:&quot;6 months&quot;,&quot;hyperdrive_rating&quot;:&quot;4.0&quot;,&quot;MGLT&quot;:&quot;20&quot;,&quot;starship_class&quot;:&quot;Medium transport&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-15T12:34:52.264000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.895000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/17/&quot;}]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.58">
+      <div class="step-ref failed">58</div>
+      
+      <div class="step-cell failed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.58">11:27:00.321 src/test/resources/features/swapi-get.feature:58
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 2168, url: https://swapi.dev/api/starships?myparam=page%3D999, response: 
+{&quot;count&quot;:36,&quot;next&quot;:&quot;https://swapi.dev/api/starships/?page=2&amp;myparam=page%3D999&quot;,&quot;previous&quot;:null,&quot;results&quot;:[{&quot;name&quot;:&quot;CR90 corvette&quot;,&quot;model&quot;:&quot;CR90 corvette&quot;,&quot;manufacturer&quot;:&quot;Corellian Engineering Corporation&quot;,&quot;cost_in_credits&quot;:&quot;3500000&quot;,&quot;length&quot;:&quot;150&quot;,&quot;max_atmosphering_speed&quot;:&quot;950&quot;,&quot;crew&quot;:&quot;30-165&quot;,&quot;passengers&quot;:&quot;600&quot;,&quot;cargo_capacity&quot;:&quot;3000000&quot;,&quot;consumables&quot;:&quot;1 year&quot;,&quot;hyperdrive_rating&quot;:&quot;2.0&quot;,&quot;MGLT&quot;:&quot;60&quot;,&quot;starship_class&quot;:&quot;corvette&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/3/&quot;,&quot;https://swapi.dev/api/films/6/&quot;],&quot;created&quot;:&quot;2014-12-10T14:20:33.369000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.867000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/2/&quot;},{&quot;name&quot;:&quot;Star Destroyer&quot;,&quot;model&quot;:&quot;Imperial I-class Star Destroyer&quot;,&quot;manufacturer&quot;:&quot;Kuat Drive Yards&quot;,&quot;cost_in_credits&quot;:&quot;150000000&quot;,&quot;length&quot;:&quot;1,600&quot;,&quot;max_atmosphering_speed&quot;:&quot;975&quot;,&quot;crew&quot;:&quot;47,060&quot;,&quot;passengers&quot;:&quot;n/a&quot;,&quot;cargo_capacity&quot;:&quot;36000000&quot;,&quot;consumables&quot;:&quot;2 years&quot;,&quot;hyperdrive_rating&quot;:&quot;2.0&quot;,&quot;MGLT&quot;:&quot;60&quot;,&quot;starship_class&quot;:&quot;Star Destroyer&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-10T15:08:19.848000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.870000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/3/&quot;},{&quot;name&quot;:&quot;Sentinel-class landing craft&quot;,&quot;model&quot;:&quot;Sentinel-class landing craft&quot;,&quot;manufacturer&quot;:&quot;Sienar Fleet Systems, Cyngus Spaceworks&quot;,&quot;cost_in_credits&quot;:&quot;240000&quot;,&quot;length&quot;:&quot;38&quot;,&quot;max_atmosphering_speed&quot;:&quot;1000&quot;,&quot;crew&quot;:&quot;5&quot;,&quot;passengers&quot;:&quot;75&quot;,&quot;cargo_capacity&quot;:&quot;180000&quot;,&quot;consumables&quot;:&quot;1 month&quot;,&quot;hyperdrive_rating&quot;:&quot;1.0&quot;,&quot;MGLT&quot;:&quot;70&quot;,&quot;starship_class&quot;:&quot;landing craft&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-10T15:48:00.586000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.873000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/5/&quot;},{&quot;name&quot;:&quot;Death Star&quot;,&quot;model&quot;:&quot;DS-1 Orbital Battle Station&quot;,&quot;manufacturer&quot;:&quot;Imperial Department of Military Research, Sienar Fleet Systems&quot;,&quot;cost_in_credits&quot;:&quot;1000000000000&quot;,&quot;length&quot;:&quot;120000&quot;,&quot;max_atmosphering_speed&quot;:&quot;n/a&quot;,&quot;crew&quot;:&quot;342,953&quot;,&quot;passengers&quot;:&quot;843,342&quot;,&quot;cargo_capacity&quot;:&quot;1000000000000&quot;,&quot;consumables&quot;:&quot;3 years&quot;,&quot;hyperdrive_rating&quot;:&quot;4.0&quot;,&quot;MGLT&quot;:&quot;10&quot;,&quot;starship_class&quot;:&quot;Deep Space Mobile Battlestation&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-10T16:36:50.509000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:26:24.783000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/9/&quot;},{&quot;name&quot;:&quot;Millennium Falcon&quot;,&quot;model&quot;:&quot;YT-1300 light freighter&quot;,&quot;manufacturer&quot;:&quot;Corellian Engineering Corporation&quot;,&quot;cost_in_credits&quot;:&quot;100000&quot;,&quot;length&quot;:&quot;34.37&quot;,&quot;max_atmosphering_speed&quot;:&quot;1050&quot;,&quot;crew&quot;:&quot;4&quot;,&quot;passengers&quot;:&quot;6&quot;,&quot;cargo_capacity&quot;:&quot;100000&quot;,&quot;consumables&quot;:&quot;2 months&quot;,&quot;hyperdrive_rating&quot;:&quot;0.5&quot;,&quot;MGLT&quot;:&quot;75&quot;,&quot;starship_class&quot;:&quot;Light freighter&quot;,&quot;pilots&quot;:[&quot;https://swapi.dev/api/people/13/&quot;,&quot;https://swapi.dev/api/people/14/&quot;,&quot;https://swapi.dev/api/people/25/&quot;,&quot;https://swapi.dev/api/people/31/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-10T16:59:45.094000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.880000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/10/&quot;},{&quot;name&quot;:&quot;Y-wing&quot;,&quot;model&quot;:&quot;BTL Y-wing&quot;,&quot;manufacturer&quot;:&quot;Koensayr Manufacturing&quot;,&quot;cost_in_credits&quot;:&quot;134999&quot;,&quot;length&quot;:&quot;14&quot;,&quot;max_atmosphering_speed&quot;:&quot;1000km&quot;,&quot;crew&quot;:&quot;2&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;110&quot;,&quot;consumables&quot;:&quot;1 week&quot;,&quot;hyperdrive_rating&quot;:&quot;1.0&quot;,&quot;MGLT&quot;:&quot;80&quot;,&quot;starship_class&quot;:&quot;assault starfighter&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-12T11:00:39.817000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.883000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/11/&quot;},{&quot;name&quot;:&quot;X-wing&quot;,&quot;model&quot;:&quot;T-65 X-wing&quot;,&quot;manufacturer&quot;:&quot;Incom Corporation&quot;,&quot;cost_in_credits&quot;:&quot;149999&quot;,&quot;length&quot;:&quot;12.5&quot;,&quot;max_atmosphering_speed&quot;:&quot;1050&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;110&quot;,&quot;consumables&quot;:&quot;1 week&quot;,&quot;hyperdrive_rating&quot;:&quot;1.0&quot;,&quot;MGLT&quot;:&quot;100&quot;,&quot;starship_class&quot;:&quot;Starfighter&quot;,&quot;pilots&quot;:[&quot;https://swapi.dev/api/people/1/&quot;,&quot;https://swapi.dev/api/people/9/&quot;,&quot;https://swapi.dev/api/people/18/&quot;,&quot;https://swapi.dev/api/people/19/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;,&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-12T11:19:05.340000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.886000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/12/&quot;},{&quot;name&quot;:&quot;TIE Advanced x1&quot;,&quot;model&quot;:&quot;Twin Ion Engine Advanced x1&quot;,&quot;manufacturer&quot;:&quot;Sienar Fleet Systems&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;9.2&quot;,&quot;max_atmosphering_speed&quot;:&quot;1200&quot;,&quot;crew&quot;:&quot;1&quot;,&quot;passengers&quot;:&quot;0&quot;,&quot;cargo_capacity&quot;:&quot;150&quot;,&quot;consumables&quot;:&quot;5 days&quot;,&quot;hyperdrive_rating&quot;:&quot;1.0&quot;,&quot;MGLT&quot;:&quot;105&quot;,&quot;starship_class&quot;:&quot;Starfighter&quot;,&quot;pilots&quot;:[&quot;https://swapi.dev/api/people/4/&quot;],&quot;films&quot;:[&quot;https://swapi.dev/api/films/1/&quot;],&quot;created&quot;:&quot;2014-12-12T11:21:32.991000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.889000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/13/&quot;},{&quot;name&quot;:&quot;Executor&quot;,&quot;model&quot;:&quot;Executor-class star dreadnought&quot;,&quot;manufacturer&quot;:&quot;Kuat Drive Yards, Fondor Shipyards&quot;,&quot;cost_in_credits&quot;:&quot;1143350000&quot;,&quot;length&quot;:&quot;19000&quot;,&quot;max_atmosphering_speed&quot;:&quot;n/a&quot;,&quot;crew&quot;:&quot;279,144&quot;,&quot;passengers&quot;:&quot;38000&quot;,&quot;cargo_capacity&quot;:&quot;250000000&quot;,&quot;consumables&quot;:&quot;6 years&quot;,&quot;hyperdrive_rating&quot;:&quot;2.0&quot;,&quot;MGLT&quot;:&quot;40&quot;,&quot;starship_class&quot;:&quot;Star dreadnought&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-15T12:31:42.547000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.893000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/15/&quot;},{&quot;name&quot;:&quot;Rebel transport&quot;,&quot;model&quot;:&quot;GR-75 medium transport&quot;,&quot;manufacturer&quot;:&quot;Gallofree Yards, Inc.&quot;,&quot;cost_in_credits&quot;:&quot;unknown&quot;,&quot;length&quot;:&quot;90&quot;,&quot;max_atmosphering_speed&quot;:&quot;650&quot;,&quot;crew&quot;:&quot;6&quot;,&quot;passengers&quot;:&quot;90&quot;,&quot;cargo_capacity&quot;:&quot;19000000&quot;,&quot;consumables&quot;:&quot;6 months&quot;,&quot;hyperdrive_rating&quot;:&quot;4.0&quot;,&quot;MGLT&quot;:&quot;20&quot;,&quot;starship_class&quot;:&quot;Medium transport&quot;,&quot;pilots&quot;:[],&quot;films&quot;:[&quot;https://swapi.dev/api/films/2/&quot;,&quot;https://swapi.dev/api/films/3/&quot;],&quot;created&quot;:&quot;2014-12-15T12:34:52.264000Z&quot;,&quot;edited&quot;:&quot;2014-12-20T21:23:49.895000Z&quot;,&quot;url&quot;:&quot;https://swapi.dev/api/starships/17/&quot;}]}
+src/test/resources/features/swapi-get.feature:58
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.59">
+      <div class="step-ref skipped">59</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>match response == { &quot;detail&quot;: &quot;Page not found&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

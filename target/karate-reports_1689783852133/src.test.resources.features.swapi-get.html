@@ -1,0 +1,2188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("7f37a4e7-ae82-4a72-a727-35deaf52bb42",{name:"karjimen"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.resources.features.swapi-get</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">2</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2023-07-19 11:23:56 a. m.</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[4.1:63]"><span>[4.1:63]</span> <span>Make a query with non-existing page</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[4.2:64]"><span>[4.2:64]</span> <span>Make a query with non-existing page</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/resources/features/swapi-get.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Star Wars Api</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4.1:63]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4.1:63]</span>
+                <span class="scenario-name">Make a query with non-existing page</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1853</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4.1:63]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4.1:63]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">446</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.1:63]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://swapi.dev/api&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/peopl/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>param myparam = &quot;page=999&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1377</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.57">11:23:53.475 request:
+1 &gt; GET https://swapi.dev/api/peopl?myparam=page%3D999
+1 &gt; Host: swapi.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:23:54.752 response time in milliseconds: 1277
+1 &lt; 404
+1 &lt; Server: nginx/1.16.1
+1 &lt; Date: Wed, 19 Jul 2023 16:23:53 GMT
+1 &lt; Content-Type: text/html
+1 &lt; Connection: keep-alive
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; ETag: &quot;52077777db01d15c92d4f3743c178272&quot;
+1 &lt; Content-Length: 8576
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+  &lt;title&gt;Page not found at /api/peopl/&lt;/title&gt;
+  &lt;meta name=&quot;robots&quot; content=&quot;NONE,NOARCHIVE&quot;&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body&gt;div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;summary&quot;&gt;
+    &lt;h1&gt;Page not found &lt;span&gt;(404)&lt;/span&gt;&lt;/h1&gt;
+    &lt;table class=&quot;meta&quot;&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request Method:&lt;/th&gt;
+        &lt;td&gt;GET&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request URL:&lt;/th&gt;
+      &lt;td&gt;https://swapi.dev/api/peopl/?myparam=page%3D999&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;info&quot;&gt;
+    
+      &lt;p&gt;
+      Using the URLconf defined in &lt;code&gt;swapi.urls&lt;/code&gt;,
+      Django tried these URL patterns, in this order:
+      &lt;/p&gt;
+      &lt;ol&gt;
+        
+          &lt;li&gt;
+            
+                ^admin/
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^documentation$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^about$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stats$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stripe/donation
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/people/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/planets/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/films/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/species/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/vehicles/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/starships/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+      &lt;/ol&gt;
+      &lt;p&gt;The current URL, &lt;code&gt;api/peopl/&lt;/code&gt;, didn&#39;t match any of these.&lt;/p&gt;
+    
+  &lt;/div&gt;
+
+  &lt;div id=&quot;explanation&quot;&gt;
+    &lt;p&gt;
+      You&#39;re seeing this error because you have &lt;code&gt;DEBUG = True&lt;/code&gt; in
+      your Django settings file. Change that to &lt;code&gt;False&lt;/code&gt;, and Django
+      will display a standard 404 page.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.58">
+      <div class="step-ref passed">58</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.59">
+      <div class="step-ref failed">59</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response == &quot;Page not found&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">27</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.59">11:23:54.786 src/test/resources/features/swapi-get.feature:59
+And match response == &quot;Page not found&quot;
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  &#39;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+  &lt;title&gt;Page not found at /api/peopl/&lt;/title&gt;
+  &lt;meta name=&quot;robots&quot; content=&quot;NONE,NOARCHIVE&quot;&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body&gt;div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;summary&quot;&gt;
+    &lt;h1&gt;Page not found &lt;span&gt;(404)&lt;/span&gt;&lt;/h1&gt;
+    &lt;table class=&quot;meta&quot;&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request Method:&lt;/th&gt;
+        &lt;td&gt;GET&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request URL:&lt;/th&gt;
+      &lt;td&gt;https://swapi.dev/api/peopl/?myparam=page%3D999&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;info&quot;&gt;
+    
+      &lt;p&gt;
+      Using the URLconf defined in &lt;code&gt;swapi.urls&lt;/code&gt;,
+      Django tried these URL patterns, in this order:
+      &lt;/p&gt;
+      &lt;ol&gt;
+        
+          &lt;li&gt;
+            
+                ^admin/
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^documentation$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^about$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stats$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stripe/donation
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/people/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/planets/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/films/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/species/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/vehicles/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/starships/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+      &lt;/ol&gt;
+      &lt;p&gt;The current URL, &lt;code&gt;api/peopl/&lt;/code&gt;, didn&#39;t match any of these.&lt;/p&gt;
+    
+  &lt;/div&gt;
+
+  &lt;div id=&quot;explanation&quot;&gt;
+    &lt;p&gt;
+      You&#39;re seeing this error because you have &lt;code&gt;DEBUG = True&lt;/code&gt; in
+      your Django settings file. Change that to &lt;code&gt;False&lt;/code&gt;, and Django
+      will display a standard 404 page.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&#39;
+  &#39;Page not found&#39;
+
+src/test/resources/features/swapi-get.feature:59
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[4.2:64]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[4.2:64]</span>
+                <span class="scenario-name">Make a query with non-existing page</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1484</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[4.2:64]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[4.2:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure ssl = true</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[4.2:64]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &quot;https://swapi.dev/api&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.55">
+      <div class="step-ref passed">55</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/planet/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.56">
+      <div class="step-ref passed">56</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>param myparam = &quot;page=999&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.57">
+      <div class="step-ref passed">57</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1481</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.57">11:23:54.795 request:
+1 &gt; GET https://swapi.dev/api/planet?myparam=page%3D999
+1 &gt; Host: swapi.dev
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:23:56.273 response time in milliseconds: 1475
+1 &lt; 404
+1 &lt; Server: nginx/1.16.1
+1 &lt; Date: Wed, 19 Jul 2023 16:23:54 GMT
+1 &lt; Content-Type: text/html
+1 &lt; Connection: keep-alive
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; ETag: &quot;e1e3f9f98ee378a134c055aa9f6b6ed4&quot;
+1 &lt; Content-Length: 8579
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+  &lt;title&gt;Page not found at /api/planet/&lt;/title&gt;
+  &lt;meta name=&quot;robots&quot; content=&quot;NONE,NOARCHIVE&quot;&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body&gt;div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;summary&quot;&gt;
+    &lt;h1&gt;Page not found &lt;span&gt;(404)&lt;/span&gt;&lt;/h1&gt;
+    &lt;table class=&quot;meta&quot;&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request Method:&lt;/th&gt;
+        &lt;td&gt;GET&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request URL:&lt;/th&gt;
+      &lt;td&gt;https://swapi.dev/api/planet/?myparam=page%3D999&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;info&quot;&gt;
+    
+      &lt;p&gt;
+      Using the URLconf defined in &lt;code&gt;swapi.urls&lt;/code&gt;,
+      Django tried these URL patterns, in this order:
+      &lt;/p&gt;
+      &lt;ol&gt;
+        
+          &lt;li&gt;
+            
+                ^admin/
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^documentation$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^about$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stats$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stripe/donation
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/people/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/planets/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/films/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/species/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/vehicles/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/starships/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+      &lt;/ol&gt;
+      &lt;p&gt;The current URL, &lt;code&gt;api/planet/&lt;/code&gt;, didn&#39;t match any of these.&lt;/p&gt;
+    
+  &lt;/div&gt;
+
+  &lt;div id=&quot;explanation&quot;&gt;
+    &lt;p&gt;
+      You&#39;re seeing this error because you have &lt;code&gt;DEBUG = True&lt;/code&gt; in
+      your Django settings file. Change that to &lt;code&gt;False&lt;/code&gt;, and Django
+      will display a standard 404 page.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.58">
+      <div class="step-ref passed">58</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 404</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.59">
+      <div class="step-ref failed">59</div>
+      
+      <div class="step-cell failed">
+        <span>And</span>&nbsp;<span>match response == &quot;Page not found&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.59">11:23:56.277 src/test/resources/features/swapi-get.feature:59
+And match response == &quot;Page not found&quot;
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  &#39;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+  &lt;title&gt;Page not found at /api/planet/&lt;/title&gt;
+  &lt;meta name=&quot;robots&quot; content=&quot;NONE,NOARCHIVE&quot;&gt;
+  &lt;style type=&quot;text/css&quot;&gt;
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body&gt;div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id=&quot;summary&quot;&gt;
+    &lt;h1&gt;Page not found &lt;span&gt;(404)&lt;/span&gt;&lt;/h1&gt;
+    &lt;table class=&quot;meta&quot;&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request Method:&lt;/th&gt;
+        &lt;td&gt;GET&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Request URL:&lt;/th&gt;
+      &lt;td&gt;https://swapi.dev/api/planet/?myparam=page%3D999&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;info&quot;&gt;
+    
+      &lt;p&gt;
+      Using the URLconf defined in &lt;code&gt;swapi.urls&lt;/code&gt;,
+      Django tried these URL patterns, in this order:
+      &lt;/p&gt;
+      &lt;ol&gt;
+        
+          &lt;li&gt;
+            
+                ^admin/
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^documentation$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^about$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stats$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^stripe/donation
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/people/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/planets/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/films/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/species/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/vehicles/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/starships/schema$
+                
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;api-root&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^people/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;people-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^planets/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;planet-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^films/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;film-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^species/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;species-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;vehicle-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-list&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+          &lt;li&gt;
+            
+                ^api/
+                
+            
+                ^starships/(?P&amp;lt;pk&amp;gt;[^/.]+)/\.(?P&amp;lt;format&amp;gt;[a-z0-9]+)$
+                [name=&#39;starship-detail&#39;]
+            
+          &lt;/li&gt;
+        
+      &lt;/ol&gt;
+      &lt;p&gt;The current URL, &lt;code&gt;api/planet/&lt;/code&gt;, didn&#39;t match any of these.&lt;/p&gt;
+    
+  &lt;/div&gt;
+
+  &lt;div id=&quot;explanation&quot;&gt;
+    &lt;p&gt;
+      You&#39;re seeing this error because you have &lt;code&gt;DEBUG = True&lt;/code&gt; in
+      your Django settings file. Change that to &lt;code&gt;False&lt;/code&gt;, and Django
+      will display a standard 404 page.
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&#39;
+  &#39;Page not found&#39;
+
+src/test/resources/features/swapi-get.feature:59
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

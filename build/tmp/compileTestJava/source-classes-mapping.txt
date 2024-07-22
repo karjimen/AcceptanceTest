@@ -1,0 +1,4 @@
+co/com/bancolombia/karate/TestApiRunner.java
+ co.com.bancolombia.karate.TestApiRunner
+co/com/bancolombia/karate/ParallelTest.java
+ co.com.bancolombia.karate.ParallelTest

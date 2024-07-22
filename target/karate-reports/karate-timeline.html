@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/resources\/features\/swapi-get[1.1:17]","start":1689785502546,"end":1689785514085,"title":"src\/test\/resources\/features\/swapi-get[1.1:17] 11:51:42.546-11:51:54.085 Make a query all swapi resources by page"},{"id":2,"group":1,"content":"src\/test\/resources\/features\/swapi-get[1.2:18]","start":1689785514097,"end":1689785520733,"title":"src\/test\/resources\/features\/swapi-get[1.2:18] 11:51:54.097-11:52:00.733 Make a query all swapi resources by page"},{"id":3,"group":1,"content":"src\/test\/resources\/features\/swapi-get[2.1:29]","start":1689785520741,"end":1689785524280,"title":"src\/test\/resources\/features\/swapi-get[2.1:29] 11:52:00.741-11:52:04.280 Make a query all swapi resources by id"},{"id":4,"group":1,"content":"src\/test\/resources\/features\/swapi-get[2.2:30]","start":1689785524281,"end":1689785530190,"title":"src\/test\/resources\/features\/swapi-get[2.2:30] 11:52:04.281-11:52:10.190 Make a query all swapi resources by id"},{"id":5,"group":1,"content":"src\/test\/resources\/features\/swapi-get[2.3:31]","start":1689785530204,"end":1689785533920,"title":"src\/test\/resources\/features\/swapi-get[2.3:31] 11:52:10.204-11:52:13.920 Make a query all swapi resources by id"},{"id":6,"group":1,"content":"src\/test\/resources\/features\/swapi-get[3.1:43]","start":1689785533921,"end":1689785548810,"title":"src\/test\/resources\/features\/swapi-get[3.1:43] 11:52:13.921-11:52:28.810 Make a query all swapi resources by specific search"},{"id":7,"group":1,"content":"src\/test\/resources\/features\/swapi-get[3.2:44]","start":1689785548811,"end":1689785558243,"title":"src\/test\/resources\/features\/swapi-get[3.2:44] 11:52:28.811-11:52:38.243 Make a query all swapi resources by specific search"},{"id":8,"group":1,"content":"src\/test\/resources\/features\/swapi-get[3.3:45]","start":1689785558244,"end":1689785567483,"title":"src\/test\/resources\/features\/swapi-get[3.3:45] 11:52:38.244-11:52:47.483 Make a query all swapi resources by specific search"},{"id":9,"group":1,"content":"src\/test\/resources\/features\/swapi-get[4.1:54]","start":1689785567492,"end":1689785597701,"title":"src\/test\/resources\/features\/swapi-get[4.1:54] 11:52:47.492-11:53:17.701 Make a query with non-existing page","className":"failed"},{"id":10,"group":1,"content":"src\/test\/resources\/features\/swapi-get[4.2:55]","start":1689785597707,"end":1689785598938,"title":"src\/test\/resources\/features\/swapi-get[4.2:55] 11:53:17.707-11:53:18.938 Make a query with non-existing page","className":"failed"},{"id":11,"group":1,"content":"src\/test\/resources\/features\/swapi-get[4.3:56]","start":1689785598942,"end":1689785599381,"title":"src\/test\/resources\/features\/swapi-get[4.3:56] 11:53:18.942-11:53:19.381 Make a query with non-existing page","className":"failed"},{"id":12,"group":1,"content":"src\/test\/resources\/features\/swapi-get[5.1:66]","start":1689785599382,"end":1689785599793,"title":"src\/test\/resources\/features\/swapi-get[5.1:66] 11:53:19.382-11:53:19.793 Make a query with non-existing ID","className":"failed"},{"id":13,"group":1,"content":"src\/test\/resources\/features\/swapi-get[5.2:67]","start":1689785599798,"end":1689785600241,"title":"src\/test\/resources\/features\/swapi-get[5.2:67] 11:53:19.798-11:53:20.241 Make a query with non-existing ID","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
